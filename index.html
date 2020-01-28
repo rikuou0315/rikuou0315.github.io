@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>メルカリ計算アプリ</title>
+</head>
+<body>
+  <h1>メルカリ計算アプリ</h1>
+  <table>
+    <tr>
+      <th>
+        <label for="purchasePrice">仕入れ価格</label>
+      </th>
+      <td>
+        <input type="text" name="purchasePrice" id="purchasePrice">円
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label for="sellingPrice">販売価格</label>
+      </th>
+      <td>
+        <input type="text" name="sellingPrice" id="sellingPrice">円
+      </td>
+    </tr>
+    <th>
+      サイズ
+    </th>
+    <td>
+      <select name="delivery" id="delivery">
+        <optgroup label="厚さ3cm以内">
+          <option value="n25g">～25g</option>
+          <option value="n50g">～50g</option>
+          <option value="n100g">～100g</option>
+          <option value="small">A4封筒に収まる</option>
+        </optgroup>
+        <optgroup label="厚さ3cm以上">
+          <option value="k50g">～50g</option>
+          <option value="k100g">～100g</option>
+          <option value="k150g">～150g</option>
+          <option value="k250g">～250g</option>
+          <option value="big">B5サイズ厚さ7cm以内</option>
+        </optgroup>
+      </select>
+    </td>
+  </table>
+  <button type="button" onclick="calculate()">計算する</button>
+  <hr>
+  <table>
+    <tr>
+      <th>利益</th>
+      <td id="profit"></td>
+    </tr>
+    <tr>
+      <th>利益率(%)</th>
+      <td id="profitRate"></td>
+    </tr>
+  </table>
+  
+  <script src="calculate.js"></script>
+</body>
+</html>
