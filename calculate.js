@@ -38,12 +38,6 @@ function calculate(){
       deliveryPrice=440;
   }
 
-  if(delivery=="small"){
-    deliveryPrice=175;
-  }else if(delivery=="big"){
-    deliveryPrice=440;
-  };
-
   let commission=sellingPrice*0.1;
 
   let profit=sellingPrice-purchasePrice-deliveryPrice-commission;
