@@ -1,0 +1,100 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/slides/N58-38-19/manifest.json",
+  "label": "N58-38-19",
+	"metadata": [
+    {
+      "label": "カテゴリ",
+      "value": "ブータン 1958"
+    },
+    {
+      "label": "日付",
+      "value": "1958-08-15"
+    },
+    {
+      "label": "場所",
+      "value": "ティンプウ"
+    },
+    {
+      "label": "キーワード",
+      "value": "ゾン, 白壁, 中庭, 石畳, 僧"
+    }
+  ],
+  "items": [
+		{
+			"type": "Canvas",
+			"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/slides/N58-38-19/canvas/1",
+  		"label": "カラー",
+			"width": 888,
+			"height": 597,
+  		"items": [
+				{
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19.jpg/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"service": [
+									{
+										"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19.jpg",
+										"type": "ImageService3",
+										"profile": "level2"
+									}
+								]
+							},
+							"target": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/slides/N58-38-19/canvas/1"
+						}
+					]
+				}
+			],
+			"thumbnail": [
+        {
+          "id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19.jpg/full/200,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+		},
+		{
+			"type": "Canvas",
+			"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/slides/N58-38-19/canvas/2",
+  		"label": "オリジナル",
+			"width": 888,
+			"height": 597,
+  		"items": [
+				{
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19_mono.jpg/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"service": [
+									{
+										"id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19_mono.jpg",
+										"type": "ImageService3",
+										"profile": "level2"
+									}
+								]
+							},
+							"target": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/slides/N58-38-19/canvas/2"
+						}
+					]
+				}
+			],
+			"thumbnail": [
+        {
+          "id": "https://dev.kojima-lab.jp/na4juawooxu7Iex5/nakao_db/public/iiif/N58-38-19_mono.jpg/full/200,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+		}
+	]
+}
